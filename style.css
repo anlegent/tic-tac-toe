@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #1a2a33;
+  padding: 5%;
+  font-family: "Outfit", serif;
+}
+button {
+  background: none;
+  border: none;
+}
+.pick {
+  background-color: #1f3641;
+  border-radius: 15px;
+  padding: 5%;
+}
+.markbtns {
+  background-color: #1a2a33;
+  border-radius: 10px;
+}
+.circlemarkbtn {
+  background-color: #a8bfc9;
+  border-radius: 10px;
+}
+.whitetext {
+  color: #a8bfc9;
+}
+.picktext {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+.remembertext {
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-top: 5%;
+}
+.pickbtnpadding {
+}
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
