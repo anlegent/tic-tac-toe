@@ -17,14 +17,24 @@ button {
   background-color: #1f3641;
   border-radius: 15px;
   padding: 5%;
+  border-bottom: 8px #10212A solid;
+  margin-bottom: 5%;
 }
 .markbtns {
   background-color: #1a2a33;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3%;
 }
 .circlemarkbtn {
   background-color: #a8bfc9;
   border-radius: 10px;
+}
+.crossmarkbtn{
+  border-radius: 10px;
+
 }
 .whitetext {
   color: #a8bfc9;
@@ -33,13 +43,146 @@ button {
   font-weight: 700;
   font-size: 1rem;
   padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
 }
 .remembertext {
   font-weight: 400;
   font-size: 0.875rem;
   padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
 }
 .pickbtnpadding {
+  padding: 5%;
+  width: 50%;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.newgamecpu{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #F2B137;
+  border-bottom: 8px solid #CC8B13;
+  border-radius: 15px;
+  color: #1A2A33;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 90%;
+  padding: 5%;
+}
+.newgameplayer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #31C3BD;
+  border-bottom: 8px solid #118C87;
+  border-radius: 15px;
+  color: #1A2A33;
+  font-weight: 700;
+  font-size: 1rem;
+  width: 90%;
+  padding: 5%;
+}
+.playbtns{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  gap: 20px;
+}
+.ttt{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.block{
+width: 80px;
+height: 80px;
+border-radius: 10px;
+background-color: #1f3641;
+border-bottom: 8px solid #10212A;
+}
+.topmenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15%;
+}
+.retry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a8bfc9;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  border-bottom: 4px solid #6b8997;
+}
+.playerturn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #A8BFC9;
+  background-color: #1f3641;
+  gap: 5px;
+  padding: 2.5%;
+  border-radius: 5px;
+border-bottom: 4px solid #10212A;
+}
+.tttflex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stats{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.player1score{
+width: 80px;
+height: 50px;
+background-color:#31C3BD;
+border-radius: 10px;
+color: #1A2A33;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.player2score{
+width: 80px;
+height: 50px;
+background-color:#A8BFC9;
+border-radius: 10px;
+color: #1A2A33;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.ties{
+width: 80px;
+height: 50px;
+background-color:#F2B137;
+border-radius: 10px;
+color: #1A2A33;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 @media only screen and (min-width: 768px) {
 }

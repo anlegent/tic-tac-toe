@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="./index.html">
-      <img src="./assets/logo.svg" alt="" />
+    <a class="logo" href="./index.html">
+      <img class="logo" src="./assets/logo.svg" alt="" />
     </a>
     <div class="pick">
       <p class="whitetext picktext">PICK PLAYER 1’S MARK</p>
       <div class="markbtns">
-        <button class="pickbtnpadding">
+        <button class="pickbtnpadding crossmarkbtn">
           <img src="./assets/white-cross.svg" alt="" />
         </button>
         <button class="pickbtnpadding circlemarkbtn">
@@ -22,8 +22,10 @@
       </div>
       <p class="whitetext remembertext">REMEMBER : X GOES FIRST</p>
     </div>
-    <button disabled>NEW GAME (VS CPU)</button>
-    <button>NEW GAME (VS PLAYER)</button>
+    <div class="playbtns">
+      <button disabled class="newgamecpu" >NEW GAME (VS CPU)</button>
+      <button class="newgameplayer" >NEW GAME (VS PLAYER)</button>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
