@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tic tac toe - game</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="topmenu">
-        <a href="./index.html">
-            <img src="./assets/logo.svg" alt="logo" />
-        </a>
-        <div class="playerturn">
-            <img src="./assets/turncross.svg" alt="">
-            <p>TURN</p>
+      <a href="./index.html">
+        <img src="./assets/logo.svg" alt="logo" />
+      </a>
+      <div class="playerturn">
+        <img src="./assets/turncross.svg" alt="" />
+        <p>TURN</p>
+      </div>
+      <button class="retry">
+        <img src="./assets/retry.svg" alt="" />
+      </button>
+    </div>
+    <main>
+      <div class="tttflex">
+        <div class="ttt">
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
+          <div class="block"></div>
         </div>
-        <button class="retry">
-            <img src="./assets/retry.svg" alt="">
-        </button>
-    </div>
-    <div class="tttflex">
-<div class="ttt">
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-    <div class="block"></div>
-</div>
-</div>
-<div class="stats">
-    <div class="player1score"> 
-        <p>X (YOU)</p>
-        <p>14</p>
-    </div>
-    <div class="ties"> 
-        <p>TIES</p>
-        <p>32</p>
-    </div>
-    <div class="player2score"> 
-        <p>O (CPU)</p>
-        <p>11</p>
-    </div>
-</div>
+      </div>
+      <div class="stats">
+        <div class="player1score">
+          <p>X (player1)</p>
+          <p>14</p>
+        </div>
+        <div class="ties">
+          <p>TIES</p>
+          <p>32</p>
+        </div>
+        <div class="player2score">
+          <p>O (player2)</p>
+          <p>11</p>
+        </div>
+      </div>
+      <div class="p1win">
+        <p class="playerwintext">PLAYER 1 WINS!</p>
+        <div class="alignwintext">
+          <img src="./assets/circle-yellow.svg" alt="" />
+          <p class="takeroundcircle">TAKES THE ROUND</p>
+        </div>
+        <div class="alignwinbtns">
+          <button class="quitbtn">QUIT</button>
+          <button class="nextroundbtn">NEXT ROUND</button>
+        </div>
+      </div>
+      <!--
+      <div class="p2win">
+        <p class="playerwintext">PLAYER 2 WINS!</p>
+        <div class="alignwintext">
+          <img src="./assets/cross-blue.svg" alt="" />
+          <p class="takeroundcross">TAKES THE ROUND</p>
+        </div>
+        <div class="alignwinbtns">
+          <button class="quitbtn">QUIT</button>
+          <button class="nextroundbtn">NEXT ROUND</button>
+        </div>
+      </div>
+
+      <div class="tie">
+        <div class="alignwintext">
+          <p class="tietext">ROUND TIED</p>
+        </div>
+        <div class="alignwinbtns">
+          <button class="quitbtn">QUIT</button>
+          <button class="nextroundbtn">NEXT ROUND</button>
+        </div>
+      </div>
+      -->
+    </main>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>

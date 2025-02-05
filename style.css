@@ -183,6 +183,94 @@ button {
   justify-content: center;
   align-items: center;
 }
+.p1win {
+  background-color: #1f3641;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p2win {
+  background-color: #1f3641;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tie {
+  background-color: #1f3641;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.playerwintext {
+  color: #a8bfc9;
+  font-weight: 700;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alignwintext {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.takeroundcircle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #f2b137;
+}
+.takeroundcross {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #31c3bd;
+}
+.alignwinbtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.quitbtn {
+  background-color: #a8bfc9;
+  border-radius: 10px;
+  border-bottom: #6b8997 4px solid;
+  color: #1a2a33;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 4%;
+}
+.nextroundbtn {
+  background-color: #f2b137;
+  border-radius: 10px;
+  border-bottom: #cc8b13 4px solid;
+  color: #1a2a33;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 4%;
+}
+.tietext {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #a8bfc9;
+}
 @media only screen and (min-width: 768px) {
   body {
     padding: 20%;
